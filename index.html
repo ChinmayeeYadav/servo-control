@@ -31,7 +31,7 @@
 
         function updateServo(pos) {
             document.getElementById("servoPos").innerText = pos;
-            database.ref("servoPosition").set(pos);
+            database.ref("servo/position").set(pos);
         }
     </script>
 </body>
